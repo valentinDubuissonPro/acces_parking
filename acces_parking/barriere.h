@@ -17,5 +17,4 @@ derniere mis a jour:19/11/2019:
 
 void barriere(bool);
 
-
 #endif//fin de BARRIERE_H

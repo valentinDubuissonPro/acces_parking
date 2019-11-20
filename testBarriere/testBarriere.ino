@@ -9,7 +9,7 @@ derniere mis a jour:19/11/2019:
 /*On defini ici les constantes qui vont servir à l'ensemble du programme plutot qu de creer
 des variables globales il est ainsi beaucoup plus facile de maintenir le code(seule une sourve a changer)*/
 #define MECANISME 0x20//l'addrese de PCF8574 "mecanisme"
-#define MOTEUR 125//125 ouvre la bariere et 126 la ferme
+#define MOTEUR 126//125 ouvre la bariere et 126 la ferme
 
 void setup()//fonction setup executee une fois lors du demarrage de la carte 
 {

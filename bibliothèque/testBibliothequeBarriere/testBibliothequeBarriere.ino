@@ -9,5 +9,5 @@ void setup()
 }
 void loop() 
 {
-  barriere(0);//appel de ma fonctio qui gere ma barriere et qui accpete un boolean
+  barriere(1);//appel de ma fonctio qui gere ma barriere et qui accpete un boolean
 }

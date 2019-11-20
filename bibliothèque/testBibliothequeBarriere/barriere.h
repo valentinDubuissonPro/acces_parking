@@ -2,10 +2,13 @@
 description:gere la barriere
 date de cration:19/11/2019
 derniere mis a jour:19/11/2019:
+-teste effectuer
 */
+
 #ifndef BARRIERE_H
 #define BARRIERE_H
 
+#include <Arduino.h>
 #include <Wire.h>//Bibliothèque arduino qui permet de gerer un bus de terrain I2C
 
 #define MECANISME 0x20//l'addrese de PCF8574 "mecanisme"

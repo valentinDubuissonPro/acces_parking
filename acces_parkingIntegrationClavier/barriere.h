@@ -13,7 +13,7 @@ derniere mis a jour:19/11/2019:
 
 #define MECANISME 0x20//l'addrese de PCF8574 "mecanisme"
 #define OUVRIR 125//125 ouvre la bariere et 126 la ferme
-#define FERMER 126//125 ouvre la bariere et 126 la ferme
+#define FEMER 126//125 ouvre la bariere et 126 la ferme
 
 void barriere(bool);
 
