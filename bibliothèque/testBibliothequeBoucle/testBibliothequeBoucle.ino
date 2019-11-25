@@ -1,3 +1,9 @@
+/*teste de la bibliotheque qui gere les boucles
+description:gere la barriere
+date de cration:19/11/2019
+derniere mis a jour:19/11/2019:
+-teste effectuer
+*/
 #include "boucle.h"
 #include "barriere.h"
 #include "I2C.h"//Permet de paramétrer la vitesse de la liaison I2C

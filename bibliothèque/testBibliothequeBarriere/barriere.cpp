@@ -1,4 +1,4 @@
-/*teste de la bibliotheque qui gere la barriere
+/*definition de la bibliotheque qui gere la barriere
 description:gere la barriere
 date de cration:19/11/2019
 derniere mis a jour:19/11/2019:

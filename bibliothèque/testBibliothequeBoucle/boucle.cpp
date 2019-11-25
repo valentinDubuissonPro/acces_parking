@@ -1,4 +1,4 @@
-/*teste de la bibliotheque qui gere les boucles
+/*definition de la bibliotheque qui gere les boucles
 description:gere les boucles
 date de cration:20/11/2019
 Note:

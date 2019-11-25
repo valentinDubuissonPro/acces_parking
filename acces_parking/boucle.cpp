@@ -1,4 +1,4 @@
-/*teste de la bibliotheque qui gere les boucles
+/*definition de la bibliotheque qui gere les boucles
 description:gere les boucles
 date de cration:20/11/2019
 Note:
@@ -26,8 +26,8 @@ bool boucleAmont()
 	  a = Wire.read(); //recois octet par octet
 	} 
 	//Serial.println(a,DEC);//affiche l'octet recus
-  if(a == 64 || a == 0) return 1;//si la voiture est sur la boucle Amont je retourne 1
-  if(a == 96 || a == 32) return 0;//sinon je retourne 0
+  if(a == 64) return 1;//si la voiture est sur la boucle Amont je retourne 1
+  else return 0;//sinon je retourne 0
 }
 
 bool boucleAval()
@@ -45,6 +45,6 @@ bool boucleAval()
     a = Wire.read(); //recois octet par octet
   } 
   //Serial.println(a,DEC);//affiche l'octet recus
-  if(a == 32 || a == 0) return 1;//si la voiture est sur la boucle Aval je retourne 1
-  if(a == 96 || a == 64) return 0;//sinon je retourne 0
+  if(a == 32) return 1;//si la voiture est sur la boucle Aval je retourne 1
+  else return 0;//sinon je retourne 0
 }
